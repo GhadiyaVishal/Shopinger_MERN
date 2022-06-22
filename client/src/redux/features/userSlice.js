@@ -1,16 +1,17 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import toast from "react-hot-toast";
+import { publicRequest } from "../../requestMethod";
 
-// export const userSignUp = createAsyncThunk(
+// export const userUpdate = createAsyncThunk(
 //   "auth/register",
 //   async ({ toast, navigate }, { rejectWithValue }) => {
 //     try {
-//       const res = await api.userSignUp(dataForm);
-//       toast.success("Register Successful");
+//       const res = await publicRequest.userSignUp(id);
+//       toast.success("Update Successful");
 //       navigate("/");
 //       return res.data;
 //     } catch (error) {
-//       toast.error("Please give all the values");
+//       toast.error("Please giaweghghg");
 //       return rejectWithValue(error.res.data);
 //     }
 //   }

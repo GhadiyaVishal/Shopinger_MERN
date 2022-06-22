@@ -46,7 +46,7 @@ export const update = async (dispatch, user) => {
   dispatch(updateStart());
   try {
     const res = await publicRequest.put(
-      `http://localhost:5000/api/users/${user._id}`,
+      `http://localhost:5000/api/users/${user.id}`,
       user
     );
     dispatch(updateSuccess(res.data));

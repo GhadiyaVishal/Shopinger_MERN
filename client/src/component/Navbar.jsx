@@ -175,9 +175,7 @@ const Navbar = () => {
               <p
                 className="mr-4 cursor-pointer"
                 onClick={() => dispatch(update())}
-              >
-                Edit
-              </p> /* onClick={()=> dispatch(useredit())} */
+              ></p> /* onClick={()=> dispatch(useredit())} */
             ) : (
               <Link className="mr-4" to="/register">
                 Register
